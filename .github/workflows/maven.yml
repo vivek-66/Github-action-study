@@ -1,4 +1,4 @@
-name: Deploy Java Application to EC2
+name: Deploy Java Application to EC2 tomcat
 
 on:
   push:
