@@ -31,7 +31,7 @@ public class TrackerServlet extends HttpServlet {
 
     public static final Logger LOG = LogManager.getLogger(TrackerServlet.class);
 
-    private String pageTitle = "Cloud Scale Web App Session Management";
+    private String pageTitle = "Cloud Scale Web App Session Management V1:08-03-25";
 
     /**
      * Initialize the Servlet
