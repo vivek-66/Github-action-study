@@ -54,4 +54,3 @@ jobs:
           HOSTNAME: ${{ secrets.SSH_HOST }}
         run: |
           ssh -i ~/.ssh/id_rsa ec2-user@${{ secrets.SSH_HOST }} 'sudo cp /home/ec2-user/*.war /opt/tomcat/webapps/'
-'
